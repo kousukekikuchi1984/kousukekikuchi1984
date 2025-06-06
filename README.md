@@ -28,7 +28,7 @@
 | 2017 – 2019 | **PERSOL CAREER** / ML Engineer | - Skill-normalisation (Poincaré embedding), candidate-ranking models. |
 | 2016 – 2017 | **IPONWEB Japan** / PMO → ML Engineer | - DSP roadmap & CPA ▼ 90 %, conversions × 4 via Multi-Armed Bandit. |
 | 2014 – 2016 | **Spotlight** / Full-stack & Analytics Lead | - “Rakuten Check” iOS refactor; invoice batch 20 min → 10 s. |
-| … | See résumé for full list → [`/resume`](./resume) |
+| … | See résumé for full list → [`/resume`](./resume.md) |
 </details>
 
 ### 🛠 Tech Stack
