@@ -67,4 +67,7 @@ Automotive chassis dynamics, engine thermodynamics, and 4 a.m. mountain drives o
 
 ---
 
+[![Generated with ChatGPT](https://img.shields.io/badge/Generated%20with-ChatGPT-14A06F?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
+---
+
 _Last updated: 2025-06-06_
