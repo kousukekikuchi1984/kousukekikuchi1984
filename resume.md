@@ -1,7 +1,7 @@
 # Résumé — Kosuke Kikuchi (菊地 弘祐)
 
 ## 🗒️ Summary
-Senior Software Architect / Staff Engineer with 10 + years designing **high-scale, data-driven backend systems** and 5 + years leading cross-functional teams. Proven record of turning brittle monoliths into modular, cloud-native platforms while **cutting deployment times from hours to minutes** jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw). Equally fluent in Python, Rust, TypeScript, and AWS; applies data-science mindset from feature ideation to post-release KPI tracking. Holds **INFP-T** personality with mild ASD/ADHD traits—excellent at pattern recognition and systems thinking.
+Senior Software Architect / Staff Engineer with 10 + years designing **high-scale, data-driven backend systems** and 5 + years leading cross-functional teams. Proven record of turning brittle monoliths into modular, cloud-native platforms while **cutting deployment times from hours to minutes**. Equally fluent in Python, Rust, TypeScript, and AWS; applies data-science mindset from feature ideation to post-release KPI tracking. Holds **INFP-T** personality with mild ASD/ADHD traits—excellent at pattern recognition and systems thinking.
 
 ---
 
