@@ -56,7 +56,7 @@
 
 ### 📈 GitHub Stats
 <!-- Optional: enable in your profile settings first -->
-[![kousukekikuchi1984's GitHub stats](https://github-readme-stats.vercel.app/api?username=kousukekikuchi1984&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&cache_seconds=86400&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
+![kousukekikuchi1984's GitHub stats](https://github-readme-stats.vercel.app/api?username=kousukekikuchi1984&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&cache_seconds=86400&theme=transparent)
 
 ### 💬 Fun Facts
 - Grew up analysing buildings → ended up architecting **systems**.  
