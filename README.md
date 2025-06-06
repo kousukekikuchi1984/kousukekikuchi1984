@@ -15,7 +15,7 @@
   - Domain-driven designs, high-scale batch & real-time pipelines, cloud infra (AWS/Fargate/EKS).  
   - Rust & Python enthusiast; proves before optimising.  
 - **INFP-T | mild ASD / ADHD** — pattern-spotting & system-thinking drive my craft.  
-- **Ex-Architect** of 10 M-user loyalty system, ex-Data Engineer at Gunosy, PMO → ML engineer → Architect journey.:contentReference[oaicite:0]{index=0}  
+- **Ex-Architect** of 10 M-user loyalty system, ex-Data Engineer at Gunosy, PMO → ML engineer → Architect
 - **Side quests:** car chassis dynamics, engine thermodynamics, and AGI ethics.
 
 <details>
