@@ -5,7 +5,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/kousuke-kikuchi-37191433"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"></a>
   <a href="mailto:kousukekikuchi1984@gmail.com"><img alt="Mail" src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=your-id.your-id">
+  <img alt="Visitors" src="https://visitor-badge.laobi.icu/badge?page_id=kousukekikuchi1984.kousukekikuchi1984">
 </p>
 
 ---
