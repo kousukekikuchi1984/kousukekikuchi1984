@@ -9,17 +9,17 @@ Senior Software Architect / Staff Engineer with 10 + years designing **high-scal
 
 | Period | Company & Role | Key Achievements |
 | --- | --- | --- |
-| **2021 – Present** | **YUZURIHA** — Staff Engineer / Tech Lead | *Led rewrite of 10 M-user sports-retail loyalty platform.*<br>• Sharded MySQL + Redis to handle 1000 × tenant data scale jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)<br>• Re-architected nightly batch into **idempotent Step Functions workflow**, eliminating cascade failures jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)<br>• CI/CD pipeline → “git push → prod in 10 min”; zero-downtime blue/green deploys |
-| **2019 – 2020** | **Gunosy** — Data/Backend Engineer | • Built online ML platform on ECS & Envoy; feature flags + shadow traffic for safe releases書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)<br>• Automated Digdag/Embulk data-marts; cut manual ops by 70 % jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw) |
-| **2017 – 2019** | **PERSOL CAREER** — ML Engineer | • Skill-normalisation using **Poincaré Embedding**; raised matching recall by 15  pp書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)<br>• Refactored legacy models → testable Scala; reduced inference latency 60 % jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw) |
-| **2016 – 2017** | **IPONWEB Japan** — ML Eng / PMO | • Devised CPA optimisation that **÷10 cost / ×4 conversions** for DSP campaigns jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)<br>• Introduced DevOps (Ansible + Fabric) & Slack alerts; slashed on-call load jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw) |
-| **2014 – 2016** | **Spotlight** — Full-stack / Analytics Lead | • Invoice batch 20 min → **10 s** via Python optimisation & index tuning書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)<br>• Added cohort analysis & geofence clustering to analytics dashboard歴書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw) |
+| **2021 – Present** | **YUZURIHA** — Staff Engineer / Tech Lead | *Led rewrite of 10 M-user sports-retail loyalty platform.• Sharded MySQL + Redis to handle 1000 × tenant data scale.• Re-architected nightly batch into **idempotent Step Functions workflow**,• CI/CD pipeline → “git push → prod in 10 min”|
+| **2019 – 2020** | **Gunosy** — Data/Backend Engineer | • Built online ML platform on ECS & Envoy; feature flags + shadow traffic for safe release• Automated Digdag/Embulk data-marts; cut manual ops by 70 % |
+| **2017 – 2019** | **PERSOL CAREER** — ML Engineer | • Skill-normalisation using **Poincaré Embedding**;• Refactored legacy models → testable Scala; reduced inference latency 60 % |
+| **2016 – 2017** | **IPONWEB Japan** — ML Eng / PMO | • Devised CPA optimisation that **÷10 cost / ×4 conversions** for DSP campaigns. • Introduced DevOps (Ansible + Fabric) & Slack alerts; slashed on-call load |
+| **2014 – 2016** | **Spotlight** — Full-stack / Analytics | • Invoice batch 20 min → **10 s** via Python optimisation & index tuning.<br/>• Added cohort analysis & geofence clustering to analytics dashboard |
 
 <details><summary>📋 Earlier Projects</summary>
 
-* 2016 – 2017 | DSP roadmap & private auction roll-out (IPONWEB)歴書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
-* 2016 | Campaign budget optimiser using MAB, weekly stakeholder syncs書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
-* 2015 | Android/iOS geolocation rewards app refactor, login flow compliance歴書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
+* 2016 – 2017 | DSP roadmap & private auction roll-out (IPONWEB)  
+* 2016 | Campaign budget optimiser using MAB, weekly stakeholder syncs  
+* 2015 | Android/iOS geolocation rewards app refactor, login flow compliance  
 
 </details>
 
@@ -40,17 +40,18 @@ Senior Software Architect / Staff Engineer with 10 + years designing **high-scal
 
 ## 🎓 Education & Certifications
 
-* **Deep Learning Specialization**, deeplearning.ai — 2022 / 03書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
-* **Machine Learning**, Stanford University — 2022 / 02書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
-* **Fab Academy**, MIT CBA — 2013 / 08書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
-* **B.Arch.** Architecture, Waseda University — 2012
+* **Deep Learning Specialization**, deeplearning.ai — 2022 / 03  
+* **Machine Learning**, Stanford University — 2022 / 02  
+* **ABD.Arch.** Architecture, Waseda University — 2014
+* **Fab Academy**, MIT CBA — 2013 / 08  
+* **M.Arch.** Architecture, Waseda University — 2009
 
 ---
 
 ## 🏆 Awards
 
-* Young Researcher Excellence, Architectural Institute of Japan — 2012 / 03書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
-* Waseda University Tsuruta Scholarship — 2012 / 02書 jtc.docx](file-service://file-4iWe8Sxu2Vo1s6zLbS1nJw)  
+* Young Researcher Excellence, Architectural Institute of Japan — 2012 / 03  
+* Waseda University Tsuruta Scholarship — 2012 / 02  
 
 ---
 

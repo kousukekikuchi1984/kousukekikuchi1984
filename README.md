@@ -68,3 +68,5 @@
 
 > “**Progress is just an idea executed relentlessly.**”  
 > Feel free to reach out if you want to discuss scalable backend design, data pipelines, or why the GR86 chooses compliance over outright rigidity.
+
+[![Generated with ChatGPT](https://img.shields.io/badge/Generated%20with-ChatGPT-14A06F?style=flat-square&logo=openai&logoColor=white)](https://openai.com)
