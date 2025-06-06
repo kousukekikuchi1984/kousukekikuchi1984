@@ -56,15 +56,7 @@
 
 ### 📈 GitHub Stats
 <!-- Optional: enable in your profile settings first -->
-[![kousukekikuchi1984's GitHub stats]
-(https://github-readme-stats.vercel.app/api?username=kousukekikuchi1984
-&show_icons=true            # アイコン表示
-&include_all_commits=true   # フォーク先などのコミットも合算
-&count_private=true         # プライベート貢献も含める
-&hide_rank=true             # “A+” バッジが要らなければ
-&cache_seconds=86400        # 24h キャッシュでレート制限回避
-&theme=transparent)]        # GitHub の light/dark 両対応
-(https://github.com/anuraghazra/github-readme-stats)
+[![kousukekikuchi1984's GitHub stats](https://github-readme-stats.vercel.app/api?username=kousukekikuchi1984&show_icons=true&include_all_commits=true&count_private=true&hide_rank=true&cache_seconds=86400&theme=transparent)](https://github.com/anuraghazra/github-readme-stats)
 
 ### 💬 Fun Facts
 - Grew up analysing buildings → ended up architecting **systems**.  
