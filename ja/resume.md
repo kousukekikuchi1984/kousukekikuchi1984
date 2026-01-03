@@ -245,6 +245,15 @@ IELTS Academic 6.5 2010.10
 - A New Method for Analyzing the Relationship between City and Human Behavior using Geo-Tagging Social Networking Service, International Union of Architects Academic Program, 10074, 388-393, 2011 
 - Arduino・Pachube・SketchUpと連携した建築モニタリングシステムの基礎的研究, 日本建築学会技術報告集, Vol. 16, No. 33, 791-794, 2010
 
+## TechBlog
+- https://qiita.com/kikuchi-yzrh/items/56b2368e4473e19ec1d9
+- https://qiita.com/kikuchi-yzrh/items/9680fd85f0dcb474ef18
+- https://qiita.com/kikuchi-yzrh/items/baaab16cc1258e81e476
+- https://qiita.com/kikuchi-yzrh/items/175d6dfd01fd2a3db17a
+- https://zenn.dev/kou2kkkt/articles/dc4711afca9801
+- https://tech.gunosy.io/entry/escape-from-pitfall
+
+
 ## 作品
 
 ### Plant Pod 2013.03
