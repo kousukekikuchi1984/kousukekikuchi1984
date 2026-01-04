@@ -237,13 +237,15 @@ IELTS Academic 6.5 2010.10
 - A New Method for Analyzing the Relationship between City and Human Behavior using Geo-Tagging Social Networking Service, International Union of Architects Academic Program, 10074, 388-393, 2011 
 - Arduino・Pachube・SketchUpと連携した建築モニタリングシステムの基礎的研究, 日本建築学会技術報告集, Vol. 16, No. 33, 791-794, 2010
 
-## TechBlog
+## 技術Blog
 - https://qiita.com/kikuchi-yzrh/items/56b2368e4473e19ec1d9
+  - cache locality が性能に与える影響を整理し、最適化が効く条件／効かない条件を言語化
 - https://qiita.com/kikuchi-yzrh/items/9680fd85f0dcb474ef18
+  - SQLAlchemy の IdentityMap をコードから追い、同一性・更新・参照が破綻する境界条件を整理
 - https://qiita.com/kikuchi-yzrh/items/baaab16cc1258e81e476
-- https://qiita.com/kikuchi-yzrh/items/175d6dfd01fd2a3db17a
-- https://zenn.dev/kou2kkkt/articles/dc4711afca9801
+  - MySQL の全文検索（n-gram）で “commit しないと反映されない” 仕様を検証し、テスト時の落とし穴を整理
 - https://tech.gunosy.io/entry/escape-from-pitfall
+  - digdag の retry でタスクが重複実行される落とし穴を解析し、冪等性と再実行設計で回避策を確立
 
 
 ## 作品
