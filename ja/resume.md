@@ -326,15 +326,17 @@
 
 ## 資格
 
-IELTS Academic 6.5 2010.10
+IELTS Academic 6.5 2012.11
 
 ## 受賞・その他
 
 - 早稲田大学EDGE グローバルアントレプレナー育成プログラム修了 2016.12
 - The Fab Academy, Certificate 2013.08
-- 早稲田大学鶴田奨学金 2012.02
-- 日本建築学会関東支部若手優秀研究報告賞 2012.03
+- 日本建築学会関東支部若手優秀研究報告賞 2013.03
+- 早稲田大学鶴田奨学金 2013.02
 - 早稲田大学博士実践特論カリキュラム修了 2011.09
+- Machine Learning, Coursera(Stanford University) 2022.02
+- Deep Learning, Coursera(Deeplearning.ai) 2022.03
 
 ## 論文
 - Location Based Social Network による都市分析 都市・建築分野でのビッグデータ解析の試み, 2013年度日本建築学会全国大会（北海道）情報システム技術部門研究協議会　寄稿文
