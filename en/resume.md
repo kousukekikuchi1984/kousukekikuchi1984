@@ -1,10 +1,10 @@
 # Kosuke Kikuchi
 Nishinomiya, Hyogo, Japan  
-Backend / Data Reliability Engineer  
+Software Engineer / Backend / Data Reliability Engineer  
 GitHub: https://github.com/kousukekikuchi1984
 
 ## Summary
-Backend engineer specializing in **mission-critical data integrity**. I design systems where incorrect data must not become “confirmed truth,” such as **accounting outputs and point-balance ledgers**. I prioritize **correctness, reproducibility, and explainability** under operational constraints (retries, partial failure, asynchronous boundaries), and I am known for making pragmatic engineering decisions—including when to **stop unsafe optimizations**.
+Software engineer specializing in **mission-critical data integrity**. I design systems where incorrect data must not become “confirmed truth,” such as **accounting outputs and point-balance ledgers**. I prioritize **correctness, reproducibility, and explainability** under operational constraints (retries, partial failure, asynchronous boundaries), and I am known for making pragmatic engineering decisions—including when to **stop unsafe optimizations**. I currently work at **NTT-ME Corporation** on the **AI Property REsilience Business**, a business transferred from Tractable in the UK, where I am working to understand, stabilize, and improve the inherited system.
 
 ## Core Strengths
 - **Data integrity design:** idempotency, state transitions, failure modes, re-execution strategy, auditability
@@ -22,8 +22,20 @@ Backend engineer specializing in **mission-critical data integrity**. I design s
 
 ## Experience
 
+### NTT-ME Corporation — Software Engineer
+Jun 2026 – Present
+
+**Department:** Social Infrastructure Design Department, AI Property REsilience Business
+
+**Scope:** Software engineering for the AI Property REsilience Business, transferred from Tractable in the UK. Currently focused on understanding the inherited system, operational model, and technical assumptions after the business transfer.
+
+**Current focus**
+- Understand the existing architecture, codebase, data flows, and operational workflows.
+- Identify technical risks, knowledge concentration, and improvement opportunities required for stable post-transfer operations.
+- Organize business, operational, and technical assumptions into practical engineering context for future development and maintenance.
+
 ### YUZURIHA — Engineer (Backend / Platform)
-Jan 2021 – Present
+Jan 2021 – May 2026
 
 **Scope:** Technical direction for a ~10-engineer product team; design/code reviews as a quality gate; sub-project leadership (3–4 people); first-round engineering interviews.
 
