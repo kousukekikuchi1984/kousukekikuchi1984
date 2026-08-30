@@ -1,13 +1,17 @@
 <h1 align="center">Kosuke Kikuchi (菊地 弘祐)</h1>
 
 <p align="center">
-Backend Engineer / Software Architect focused on <b>data integrity</b> and <b>reliability</b> in mission-critical domains
+Software Engineer focused on <b>data integrity</b> and <b>reliability</b> in mission-critical domains
 (Accounting, balances/points, and irreversible business data).
 </p>
 
 <p align="center">
-▏ <a href="./en/resume.md">Résumé (EN)</a>
-▏ <a href="./ja/resume.md">職務経歴書 (JA)</a>
+Currently: NTT-ME Corporation / AI Property REsilience Business
+</p>
+
+<p align="center">
+▏ Résumé (EN): <a href="./en/resume.md">Markdown</a> / <a href="./en/resume.pdf">PDF</a>
+▏ 職務経歴書 (JA): <a href="./ja/resume.md">Markdown</a> / <a href="./ja/resume.pdf">PDF</a>
 ▏ <a href="https://www.linkedin.com/in/kousuke-kikuchi-37191433">LinkedIn</a>
 ▏ <a href="mailto:kousukekikuchi1984@gmail.com">Mail</a>
 </p>
@@ -18,6 +22,10 @@ Backend Engineer / Software Architect focused on <b>data integrity</b> and <b>re
 - Mission-critical backend design (correctness, idempotency, re-execution, auditability)
 - Batch/data workflow operations (validation, finalization rules, recovery design)
 - Long-term maintainability (domain modeling, incremental migration)
+
+## Document Balance
+- English résumé: concise international version focused on role, strengths, and selected accomplishments.
+- Japanese 職務経歴書: detailed source of career history, projects, publications, and portfolio work.
 
 ## Selected Writing
 - Cache locality and performance trade-offs  
