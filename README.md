@@ -1,12 +1,12 @@
 <h1 align="center">Kosuke Kikuchi (菊地 弘祐)</h1>
 
 <p align="center">
-Software Engineer focused on <b>data integrity</b> and <b>reliability</b> in mission-critical domains
-(Accounting, balances/points, and irreversible business data).
+Software Engineer specializing in <b>mission-critical data integrity</b>,
+<b>system takeover</b>, and <b>reliable delivery</b>.
 </p>
 
 <p align="center">
-Currently: NTT-ME Corporation / AI Property REsilience Business
+Currently: NTT-ME Corporation / AI Property Resilience Business
 </p>
 
 <p align="center">
@@ -19,9 +19,18 @@ Currently: NTT-ME Corporation / AI Property REsilience Business
 ---
 
 ## Focus Areas
-- Mission-critical backend design (correctness, idempotency, re-execution, auditability)
-- Batch/data workflow operations (validation, finalization rules, recovery design)
-- Long-term maintainability (domain modeling, incremental migration)
+- Mission-critical backend design: correctness, idempotency, re-execution, and auditability
+- System takeover and operational discovery: architecture, data flow, external-service, and risk mapping
+- Data and workflow operations: validation, finalization rules, recovery, and DLQ replay design
+- Technical requirements and quality gates: turn ambiguous requests into scoped, executable work
+- Spec-driven, AI-assisted development: review generated code for architecture, security, execution-model, and operational risks
+
+## Current Work
+
+At NTT-ME, I support the post-transfer operation and improvement of an AI Property
+Resilience service. My work spans inherited-system discovery, infrastructure-as-code
+maintenance, DWH/BI restoration planning, AWS network-change assessment, and technical
+support for project and ML delivery.
 
 ## Document Balance
 - English résumé: concise international version focused on role, strengths, and selected accomplishments.
