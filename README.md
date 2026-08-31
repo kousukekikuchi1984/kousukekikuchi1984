@@ -19,6 +19,7 @@ Currently: NTT-ME Corporation / AI Property Resilience Business
 ---
 
 ## Focus Areas
+
 - Mission-critical backend design: correctness, idempotency, re-execution, and auditability
 - System takeover and operational discovery: architecture, data flow, external-service, and risk mapping
 - Data and workflow operations: validation, finalization rules, recovery, and DLQ replay design
@@ -33,10 +34,14 @@ maintenance, DWH/BI restoration planning, AWS network-change assessment, and tec
 support for project and ML delivery.
 
 ## Document Balance
+
 - English résumé: concise international version focused on role, strengths, and selected accomplishments.
 - Japanese 職務経歴書: detailed source of career history, projects, publications, and portfolio work.
 
 ## Selected Writing
+
+- Designing the Rules, Choosing the Results: From Iannis Xenakis to Engineering in the Age of AI
+  https://zenn.dev/kou2kkkt/articles/fc92cd9d6599fb
 - Cache locality and performance trade-offs  
   https://qiita.com/kikuchi-yzrh/items/56b2368e4473e19ec1d9
 - SQLAlchemy IdentityMap boundary conditions  
