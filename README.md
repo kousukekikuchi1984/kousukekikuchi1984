@@ -2,7 +2,7 @@
 
 <p align="center">
 Software Engineer specializing in <b>mission-critical data integrity</b>,
-<b>system takeover</b>, and <b>reliable delivery</b>.
+<b>architecture</b>, and <b>AI-assisted delivery</b>.
 </p>
 
 <p align="center">
@@ -23,15 +23,16 @@ Currently: NTT-ME Corporation / AI Property Resilience Business
 - Mission-critical backend design: correctness, idempotency, re-execution, and auditability
 - System takeover and operational discovery: architecture, data flow, external-service, and risk mapping
 - Data and workflow operations: validation, finalization rules, recovery, and DLQ replay design
+- Serverless analytics foundations: DynamoDB export, event-driven pipelines, data validation, and BI adoption
 - Technical requirements and quality gates: turn ambiguous requests into scoped, executable work
-- Spec-driven, AI-assisted development: review generated code for architecture, security, execution-model, and operational risks
+- Spec-driven, AI-assisted development: generated-code review, CI/CD feedback loops, and operational-risk validation
 
 ## Current Work
 
 At NTT-ME, I support the post-transfer operation and improvement of an AI Property
 Resilience service. My work spans inherited-system discovery, infrastructure-as-code
-maintenance, DWH/BI restoration planning, AWS network-change assessment, and technical
-support for project and ML delivery.
+maintenance, serverless DWH restoration and BI adoption, AWS network-change assessment,
+and technical support for project and ML delivery.
 
 ## Document Balance
 
@@ -40,6 +41,8 @@ support for project and ML delivery.
 
 ## Selected Writing
 
+- Building Software Factories Beyond Code: Execution, Verification, and Learning Loops
+  https://zenn.dev/kou2kkkt/articles/d52dca7e2a1872
 - Designing the Rules, Choosing the Results: From Iannis Xenakis to Engineering in the Age of AI
   https://zenn.dev/kou2kkkt/articles/fc92cd9d6599fb
 - Cache locality and performance trade-offs  
