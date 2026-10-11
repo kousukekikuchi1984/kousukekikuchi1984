@@ -29,10 +29,14 @@ Currently: NTT-ME Corporation / AI Property Resilience Business
 
 ## Current Work
 
-At NTT-ME, I support the post-transfer operation and improvement of an AI Property
-Resilience service. My work spans inherited-system discovery, infrastructure-as-code
-maintenance, serverless DWH restoration and BI adoption, AWS network-change assessment,
-and technical support for project and ML delivery.
+At NTT-ME, I work as an individual contributor on the post-transfer operation and
+improvement of an AI Property Resilience service. My work spans system discovery,
+platform architecture, infrastructure-as-code, and a validated serverless DWH.
+Recent delivery includes integration tests, an isolated release-test lane, and
+Agent-assisted investigation, review, verification, and dependency maintenance.
+BI adoption and broader verification-time savings remain outcomes to validate.
+
+Both résumé editions and their PDFs were updated on October 12, 2026.
 
 ## Document Balance
 
@@ -41,6 +45,8 @@ and technical support for project and ML delivery.
 
 ## Selected Writing
 
+- From a Bug Fix to a Software Factory
+  https://zenn.dev/kou2kkkt/articles/10b13eef3b0046
 - Building Software Factories Beyond Code: Execution, Verification, and Learning Loops
   https://zenn.dev/kou2kkkt/articles/d52dca7e2a1872
 - Designing the Rules, Choosing the Results: From Iannis Xenakis to Engineering in the Age of AI

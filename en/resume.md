@@ -1,177 +1,164 @@
 # Kosuke Kikuchi
 
-Nishinomiya, Hyogo, Japan  
 Platform / Backend Engineer | Architecture, Data Integrity, AI-assisted Delivery
-GitHub: https://github.com/kousukekikuchi1984
 
-Last updated: September 5, 2026
+Nishinomiya, Hyogo, Japan · [GitHub](https://github.com/kousukekikuchi1984)
+
+Last updated: October 12, 2026
 
 ## Summary
 
-Platform and backend engineer specializing in **mission-critical data integrity**. I design systems
-where incorrect data must not become “confirmed truth,” such as accounting outputs and
-point-balance ledgers. I prioritize **correctness, reproducibility, and explainability**
-across retries, partial failure, asynchronous boundaries, and long-term operations.
+Software engineer working across backend systems, data platforms, and infrastructure since 2014.
+I specialize in data integrity for systems where incorrect accounting outputs, point balances,
+or revenue records are costly to correct. My work covers idempotency, state transitions,
+safe retries, recovery, and auditability.
 
-I currently work at **NTT-ME Corporation** on the **AI Property Resilience Business**,
-transferred from Tractable in the UK. In my first three months, I delivered a time-sensitive
-PoC UI change, defined root-cause remediation for an OpenSearch capacity incident,
-restored a serverless DWH, eliminated recurring Terraform drift, clarified underspecified
-requirements, and built an LLM-assisted review environment. The DWH implementation,
-infrastructure, and data validation took five working days; the end-to-end effort, including
-requirements and architecture, took about one month. I validated counts, missing records,
-duplicates, and processing time. I now work as an IC supporting technical
-problem solving, project management, and ML delivery while practicing spec-driven development
-and reviewing LLM-assisted code for architecture, security, execution-model,
-and operational risks.
+At NTT-ME, I work as an individual contributor on the AI Property Resilience Business
+transferred from Tractable. I handle system discovery and platform improvement across
+requirements, architecture, data, infrastructure, security, and operations. Recent work includes
+a serverless DWH, reliable Terraform configuration management, integration tests,
+an isolated release-test lane, and Agent-assisted implementation, review, and verification.
 
-## Core Strengths
+I define specifications and acceptance criteria before delegating execution to AI Agents,
+and retain responsibility for design decisions and evaluating the results. I pace platform
+changes around team capacity and operational needs, rather than implementation speed alone.
 
-- **Data integrity design:** idempotency, state transitions, failure modes, re-execution strategy, auditability
-- **System takeover:** architecture discovery, operational risk mapping, requirements/SLA discovery, external-service inventory
-- **Production troubleshooting:** root-cause analysis (DB deadlocks, memory leaks), prevention by structural fixes
-- **Backend architecture:** long-term maintainability, clear boundaries of responsibility, operationally sound workflows
-- **Cross-functional delivery:** align stakeholders by clarifying constraints, risks, and alternatives (servant-style leadership)
-- **Technical requirements:** turn ambiguous requests into scoped, executable work with explicit risks and completion criteria
-- **Spec-driven LLM engineering:** define scope, invariants, failure behavior, and acceptance criteria before using Cursor / LLM, then review implementation against the specification
+## Core Skills
 
-## Technical Skills
-
-- **Backend:** Python (primary), Rust / Go / Java (limited)
-- **Frontend:** TypeScript (production), Flutter (limited)
-- **Databases/Data:** MySQL (primary), DynamoDB, OpenSearch, DuckDB, AWS Athena
-- **Cloud/Infra:** AWS (ECS, EKS, Lambda, S3, CloudFront, CloudWatch, EventBridge, Step Functions), Terraform
-- **Data tools:** Digdag (code-level analysis), Embulk (code-level analysis)
-- **Other:** HULFT (file transfer integration), Linux (conceptual familiarity)
-- **AI-assisted development:** Cursor / LLM (spec-driven development, codebase discovery, scoped implementation, generated-code review)
+- Data integrity: idempotency, state transitions, locking, retry and recovery design, auditability.
+- Backend and platform architecture: availability, cost, operability, maintainability, technical requirements.
+- Production troubleshooting: root-cause analysis across application code, databases, infrastructure, and workflows.
+- AI-assisted delivery: specification-driven development, specialized Agents, code review, integration testing.
+- Technologies: Python; TypeScript / Vue.js; MySQL, DynamoDB, OpenSearch, DuckDB, Athena;
+  AWS ECS, EKS, Lambda, S3, CloudFront, CloudWatch, EventBridge, Step Functions; Terraform;
+  Digdag, Embulk, Linux, HULFT, Cursor, Dependabot.
+- Limited experience: Rust, Go, Java, Flutter.
 
 ## Experience
 
-### NTT-ME Corporation — Software Engineer
+### NTT-ME Corporation / Software Engineer
 
-Jun 2026 – Present
+June 2026–Present
 
-**Department:** Social Infrastructure Design Department, AI Property Resilience Business
+Social Infrastructure Design Department, AI Property Resilience Business.
+Individual contributor responsible for platform engineering and technical problem solving,
+working with the PdM and TL/PM during the post-transfer operation and improvement of the service.
 
-**Scope:** Software engineering for the AI Property Resilience Business, transferred from
-Tractable in the UK. I am taking over the inherited system while acting as a technical
-requirements and quality gate across architecture, security, data, and operations.
+- Built integration tests after completing service development, enabling Coding Agents
+  to verify implementations autonomously. Built a release-test lane that separates
+  verification from regular production work. Broader adoption and measured verification-time
+  savings remain future work.
+- Established access to logs and relevant data for Cursor-assisted investigation and verification.
+  Introduced a dependency-update workflow: Dependabot updates libraries, tests run,
+  and Cursor repairs failing changes.
+- Restored a serverless DWH using DynamoDB Export, S3, EventBridge, Step Functions, and Athena.
+  Requirements and design took the end-to-end effort to approximately one month;
+  implementation, infrastructure, and data validation took five working days.
+  Validated counts, missing records, duplicates, and processing time.
+  Infrastructure cost stayed below USD 20 per month across three environments.
+  BI adoption and the expected reduction of one to two hours of weekly CSV aggregation
+  remain unverified outcomes.
+- Identified insufficient OpenSearch instance capacity and prepared cost, rollout,
+  Terraform state reconciliation, and risk information for a remediation decision.
+  Resolved recurring Terraform drift and plan differences across S3, Lambda, Cognito,
+  and EC2; verified clean plans when no change exists and successful applies.
+- Built a Cursor-based CI/CD review environment. In one measured case, PR review time
+  fell from approximately 60 minutes to five minutes while I retained verification of
+  purpose, execution paths, permissions, data impact, and failure modes.
+- Piloted implementation, investigation, security, SRE, QA, and review Agents.
+  For one DWH project, two to three independent generations from the same specification
+  converged on behavior verified by tests and runtime checks. Identified shared context,
+  dependencies, coordination, and human review as constraints on multi-Agent delivery.
+- Delivered a PoC UI change in approximately one week. Clarified underspecified AWS
+  security tasks and client PoC requirements before implementation, and assessed
+  routing, endpoints, DNS, IAM conditions, and service impact for AWS network changes.
+- Adjust platform-improvement scope and timing around colleagues' workload and project readiness.
+  Version-based conflict control for DynamoDB-to-OpenSearch DLQ replay remains a design proposal.
 
-**Selected accomplishments in the first three months**
+### YUZURIHA / Engineer, Backend and Platform
 
-- **Delivered a PoC UI change in approximately one week:** started in the middle of my
-  second week, used Cursor for codebase navigation and implementation support, and
-  completed the business-validation change by the middle of my third week.
-- **Restored a serverless DWH in about one month:** used DynamoDB Export,
-  S3, EventBridge, Step Functions, and Athena to restore the data foundation without
-  always-on servers. Implementation, infrastructure, and data validation took five working
-  days; requirements and architecture accounted for the remaining end-to-end effort.
-  Reconciled counts, missing records, duplicates, and processing time.
-  Once BI adoption is complete, it is expected to remove one to two hours of weekly CSV
-  aggregation and support SLA reporting.
-- **Shifted an OpenSearch capacity incident from timeout tuning to root-cause remediation:**
-  identified under-provisioned capacity, evaluated cost and rollout options, defined the
-  Terraform / tfstate reconciliation approach, and presented the risks to the Engineering Director.
-- **Turned an underspecified AWS security request into executable work:** assumed technical
-  ownership, clarified requirements, scope, and the response approach,
-  and moved the work into execution.
-- **Reset requirements for a client PoC before implementation:** prevented premature
-  implementation by aligning stakeholders on the actual requirements,
-  and decomposed the outcome into actionable tasks with completion criteria.
-- **Built an LLM-assisted review environment:** created a Cursor-based CI/CD review workflow.
-  In one measured case, review time fell from approximately 60 minutes to five minutes while
-  I still verified the change purpose, execution path, permission and data impact, and failure modes.
-- **Restored reliable Terraform plan and apply:** resolved root causes across S3, Lambda,
-  Cognito, and EC2 that caused drift, repeated diffs, or failed applies. Verified clean plans
-  when no change exists and successful apply execution.
-- **Assessed development readiness across five initiatives:** found that four were not ready
-  for engineering commitment because of contract, problem-definition, scope, requirement,
-  ownership, or funding gaps, and made the blockers explicit before delivery planning.
+January 2021–June 2026
 
-**Current responsibilities**
+Worked on a point platform serving approximately seven million members.
+Contributed technical direction and design/code reviews for a team of approximately ten
+engineers, led subprojects of three to four people, and conducted first-round technical interviews.
 
-- Work as an IC alongside the PdM and TL/PM, solving technical problems and supporting
-  project-management and ML delivery needs.
-- Understand the existing architecture, codebase, data flows, and operational workflows.
-- Identify technical risks, knowledge concentration, and improvement opportunities required for stable post-transfer operations.
-- Organize business, operational, and technical assumptions into practical engineering context for future development and maintenance.
-- Built the serverless DWH, data validation, and operating design, and now drive BI selection,
-  connection, and adoption through actual use.
-- Design DynamoDB -> OpenSearch DLQ replay rules using version-based optimistic locking and a notification-first rollout.
-- Assess AWS networking impact for a 2VPC -> 3VPC transition across ECS, S3, DynamoDB, Lambda, and OpenSearch.
-- Convert ambiguous business or project requests into executable technical work and review
-  architecture, security, data, operational risk, and generated-code behavior.
-- Practice spec-driven development on real changes, with team sharing after repeated success
-  and automated review planned for stable, high-signal checks.
+- Designed safe ingestion of 300,000 external credit-card records under a one-hour SLA.
+  Redefined exception-prone external rules, used user-level locking, separated validation
+  from ingestion, and implemented idempotent retries and account-merge handling.
+  Ingestion took approximately six minutes in practice. Blocked ten partner-originated
+  failures, including three incorrect-data deliveries, with zero irreversible mispostings.
+- Prevented accounting CSV misstatements before launch by identifying a mismatch between
+  point-expiry accounting rules and the implementation, then correcting the design.
+- Led a HULFT file-transfer cutover covering OS, application, and encryption changes.
+  Reassessed cost, risk, and recoverability when external constraints changed, and completed
+  a single cutover with backup, recovery, and monitoring plans, without critical incidents.
+- Stopped an unsafe local optimization of point-balance processing. Identified MySQL
+  commit-time fsync as the bottleneck and proposed fewer commits and clearer responsibilities
+  while preserving data integrity.
+- Resolved a production memory leak caused by persistent caching of DB Engine objects.
+  Eliminated the identified deadlocks by standardizing lock acquisition order.
+- Explained assumptions, risks, and alternatives in reviews; supported technical development,
+  one-on-one feedback, and documentation skills. Other work included point-system renewal,
+  native-app backend support, and recruitment-site development.
 
-**Current design themes**
+### Gunosy / Data Reliability Engineer
 
-- **Post-transfer ownership:** classify unknowns as confirmed / unconfirmed / inferred, and build enough operational context to release, investigate incidents, and reason about rollback.
-- **DWH/BI adoption:** completed the serverless data foundation and validation without
-  recreating the previous always-on design. BI selection, connection, and operational adoption
-  remain before the expected manual-work reduction and SLA-reporting outcome are realized.
-- **DLQ conflict handling:** prevent stale replay events from overwriting newer state by using version checks, update-path conflict rules, and manual review for overlapping changes.
-- **AWS networking:** evaluate routing, VPC endpoints, security groups, DNS, IAM conditions, and service-level impact before changing VPC topology.
-- **Low-utilization cost architecture:** evaluate consolidating low-frequency API functions
-  where Provisioned Concurrency creates fixed idle cost, and compare Lambda with on-demand
-  container execution for sparse ML workloads. Savings remain estimates pending workload
-  and billing validation.
-- **Spec-driven AI-assisted development:** define specification boundaries before generation,
-  compare implementation against intended behavior, and evaluate leverage through lead time,
-  rework, review cost, defects, and production outcomes rather than token volume. For the DWH,
-  two to three independent generation cycles converged on functionally equivalent behavior
-  that passed tests and runtime validation.
+May 2019–December 2020
 
-### YUZURIHA — Engineer (Backend / Platform)
+- Designed SSP revenue workflows with preliminary finalization at 60 hours and final
+  freeze at 72 hours; prepared data for Athena and investigated Digdag behavior at code level.
+- Created reusable workflow templates with explicit platform/user responsibilities.
+  Reduced operational noise by separating errors that converge on the next run from
+  conditions requiring intervention.
+- Other projects: online ML infrastructure, patent-data preprocessing and search,
+  and data-mart development and maintenance.
 
-Jan 2021 – May 2026
+### PERSOL CAREER / Systems Engineer
 
-**Scope:** Technical direction for a ~10-engineer product team; design/code reviews as a quality gate; sub-project leadership (3–4 people); first-round engineering interviews.
+October 2017–April 2019
 
-**Selected accomplishments**
+- Maintained backend services and data platforms; built on-premises Hadoop infrastructure
+  for ML systems, documented ML project practices, maintained ML engines, and taught
+  introductory statistics to business teams.
 
-- **Prevented accounting CSV misstatement before launch** by identifying a latent edge case and correcting the design to match accounting rules (avoided costly post-release reconciliation).
-- **Built safe large-scale ingestion for credit-card data (300K records, 1-hour SLA)** by redefining inconsistent external rules, deriving a safe parallelization unit (user-level key), separating validation from apply, and enforcing idempotent re-execution; achieved ~6 minutes ingestion in practice.
-- **Led high-risk cutover of file-transfer integration (HULFT / OS / crypto changes)** across 4 stakeholders; re-evaluated trade-offs when new constraints emerged and executed a one-shot cutover with rollback/monitoring plans—completed without critical incidents.
-- **Stopped unsafe “performance optimization”** by proving the bottleneck was MySQL commit fsync (not app CPU), proposing alternatives (commit reduction, responsibility split), and preventing a design fork that risked data integrity.
-- **Resolved production incidents structurally:** fixed a post-release **memory leak** caused by persistent caching of DB Engine objects; eliminated recurring **DB deadlocks** by standardizing lock acquisition order and codifying the rule.
+### IP ONWEB JAPAN / Data Mining Engineer
 
-### Gunosy — Data Reliability Engineer
+February 2016–September 2017
 
-May 2019 – Dec 2020  
-Ensured correctness and explainability across large-scale data workflows spanning ingestion, aggregation, and business operations.
+- Analyzed advertising delivery and revenue data, investigated anomalies,
+  and worked on multi-armed-bandit campaign-budget optimization, private auctions,
+  in-feed delivery improvements, and performance consulting.
 
-- Designed revenue data finalization workflows with strict “freeze” semantics and resolved non-obvious Digdag behavior via code-level analysis.
-- Built workflow templates to democratize the platform and reduced operational noise by designing convergence-by-structure.  
-  Reference: https://tech.gunosy.io/entry/escape-from-pitfall
+### Spotlight / Engineer
 
-### PERSOL CAREER — Systems Engineer
+April 2014–January 2016
 
-Oct 2017 – Apr 2019  
-Selected: on-prem Hadoop for ML systems; docs for ML project execution; engine maintenance & review.
+- Developed Rakuten Check, an O2O service, including internal reporting, test-user features,
+  and functionality for a major convenience-store rollout. Improved reporting performance.
 
-### IP ONWEB JAPAN — Data Mining Engineer
+## Education and Training
 
-Feb 2016 – Sep 2017  
-Analytics/ops for advertising delivery and revenue data; anomaly detection from distribution shifts; root-cause analysis of “looks normal but wrong” data states.
+- Waseda University, Graduate School of Creative Science and Engineering, Architecture:
+  completed doctoral coursework; withdrew without receiving a PhD.
+- IELTS Academic: 6.5, November 2012.
+- Waseda EDGE Global Entrepreneurship Program, completed December 2016.
+- Fab Academy Certificate, August 2013.
+- Machine Learning, Coursera / Stanford University, February 2022;
+  Deep Learning, Coursera / Deeplearning.ai, March 2022.
+- Architectural Institute of Japan, Kanto Branch, Young Researcher Presentation Award,
+  March 2013; Waseda Tsuruta Scholarship, February 2013.
 
-### Spotlight — Engineer
+## Selected Writing and Contributions
 
-Apr 2014 – Jan 2016  
-O2O product development; improved report generation performance and operational efficiency.
-
-## Technical Writing & Contributions
-
-- “コードだけでなく、つくり方を残す” (Zenn):
-  https://zenn.dev/kou2kkkt/articles/d52dca7e2a1872
-  - Examines AI-era Software Factories by separating execution and verification loops
-    from individual and organizational learning loops.
-- “生成するルールと、選び抜く目” (Zenn):
-  https://zenn.dev/kou2kkkt/articles/fc92cd9d6599fb
-  - Uses Xenakis's work across music, architecture, and mathematics to examine the distinct
-    abilities to design generative rules and evaluate generated outcomes.
-- HTTP/3 (QUIC) partial Japanese translation: https://http3-explained.haxx.se/ja
-- Cache locality and performance reasoning (Qiita): https://qiita.com/kikuchi-yzrh/items/56b2368e4473e19ec1d9
-- SQLAlchemy IdentityMap deep-dive (Qiita): https://qiita.com/kikuchi-yzrh/items/9680fd85f0dcb474ef18
-- MySQL full-text search edge case note (Qiita): https://qiita.com/kikuchi-yzrh/items/baaab16cc1258e81e476
-- Digdag retry duplication pitfall (Gunosy Tech Blog): https://tech.gunosy.io/entry/escape-from-pitfall
+- [From a Bug Fix to a Software Factory](https://zenn.dev/kou2kkkt/articles/10b13eef3b0046)
+  (Japanese): specialized Agents, independent review, E2E testing, and human attention in a three-day experiment.
+- [Preserving How We Build, Beyond the Code](https://zenn.dev/kou2kkkt/articles/d52dca7e2a1872)
+  (Japanese): execution, verification, and organizational learning as distinct processes.
+- [Designing the Rules, Choosing the Results](https://zenn.dev/kou2kkkt/articles/fc92cd9d6599fb)
+  (Japanese): generative design and evaluation through Xenakis's music, architecture, and mathematics.
+- [HTTP/3 explained](https://http3-explained.haxx.se/ja): partial Japanese translation.
+- [Cache locality](https://qiita.com/kikuchi-yzrh/items/56b2368e4473e19ec1d9),
+  [SQLAlchemy IdentityMap](https://qiita.com/kikuchi-yzrh/items/9680fd85f0dcb474ef18),
+  [MySQL full-text search](https://qiita.com/kikuchi-yzrh/items/baaab16cc1258e81e476),
+  and [Digdag retry behavior](https://tech.gunosy.io/entry/escape-from-pitfall).
