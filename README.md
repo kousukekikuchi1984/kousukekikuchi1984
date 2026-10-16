@@ -2,7 +2,7 @@
 
 <p align="center">
 Software Engineer specializing in <b>mission-critical data integrity</b>,
-<b>architecture</b>, and <b>AI-assisted delivery</b>.
+<b>architecture</b>, and <b>Software Factory development</b>.
 </p>
 
 <p align="center">
@@ -25,18 +25,20 @@ Currently: NTT-ME Corporation / AI Property Resilience Business
 - Data and workflow operations: validation, finalization rules, recovery, and DLQ replay design
 - Serverless analytics foundations: DynamoDB export, event-driven pipelines, data validation, and BI adoption
 - Technical requirements and quality gates: turn ambiguous requests into scoped, executable work
-- Spec-driven, AI-assisted development: generated-code review, CI/CD feedback loops, and operational-risk validation
+- Software Factory: role-based Agents, specification-driven development, integration tests, isolated test lanes, and dependency-update automation
 
 ## Current Work
 
 At NTT-ME, I work as an individual contributor on the post-transfer operation and
 improvement of an AI Property Resilience service. My work spans system discovery,
 platform architecture, infrastructure-as-code, and a validated serverless DWH.
-Recent delivery includes integration tests, an isolated release-test lane, and
-Agent-assisted investigation, review, verification, and dependency maintenance.
-BI adoption and broader verification-time savings remain outcomes to validate.
+Recent delivery includes role-based AI Agents, integration tests, an isolated release-test
+lane, and a workflow that tests dependency updates and uses Cursor to repair failures.
+I am building a Software Factory incrementally, with human ownership of system-wide
+consistency and design decisions. Operational benefits from the DWH and broader
+verification-time savings remain outcomes to validate.
 
-Both résumé editions and their PDFs were updated on October 12, 2026.
+Both résumé editions and their PDFs were updated on October 13, 2026.
 
 ## Document Balance
 

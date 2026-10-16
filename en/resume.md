@@ -1,10 +1,10 @@
 # Kosuke Kikuchi
 
-Platform / Backend Engineer | Architecture, Data Integrity, AI-assisted Delivery
+Platform / Backend Engineer | Architecture, Data Integrity, Software Factory
 
 Nishinomiya, Hyogo, Japan · [GitHub](https://github.com/kousukekikuchi1984)
 
-Last updated: October 12, 2026
+Last updated: October 13, 2026
 
 ## Summary
 
@@ -16,19 +16,24 @@ safe retries, recovery, and auditability.
 At NTT-ME, I work as an individual contributor on the AI Property Resilience Business
 transferred from Tractable. I handle system discovery and platform improvement across
 requirements, architecture, data, infrastructure, security, and operations. Recent work includes
-a serverless DWH, reliable Terraform configuration management, integration tests,
-an isolated release-test lane, and Agent-assisted implementation, review, and verification.
+a serverless DWH, reliable Terraform configuration management, role-based AI Agents,
+integration tests, an isolated release-test lane, and automated dependency updates and repairs.
+I am building a Software Factory incrementally so engineers can focus on system-wide
+consistency and design decisions.
 
 I define specifications and acceptance criteria before delegating execution to AI Agents,
-and retain responsibility for design decisions and evaluating the results. I pace platform
-changes around team capacity and operational needs, rather than implementation speed alone.
+and retain responsibility for design decisions and evaluating the results. I observed
+overengineering from Agents optimizing their own tasks and identified shared context,
+dependencies, and coordination as design concerns. I pace platform changes around
+team capacity and operational needs.
 
 ## Core Skills
 
 - Data integrity: idempotency, state transitions, locking, retry and recovery design, auditability.
 - Backend and platform architecture: availability, cost, operability, maintainability, technical requirements.
 - Production troubleshooting: root-cause analysis across application code, databases, infrastructure, and workflows.
-- AI-assisted delivery: specification-driven development, specialized Agents, code review, integration testing.
+- Software Factory: specification-driven development, role-based Agents, code review,
+  integration testing, isolated test lanes, dependency automation, and human design judgment.
 - Technologies: Python; TypeScript / Vue.js; MySQL, DynamoDB, OpenSearch, DuckDB, Athena;
   AWS ECS, EKS, Lambda, S3, CloudFront, CloudWatch, EventBridge, Step Functions; Terraform;
   Digdag, Embulk, Linux, HULFT, Cursor, Dependabot.
@@ -44,20 +49,19 @@ Social Infrastructure Design Department, AI Property Resilience Business.
 Individual contributor responsible for platform engineering and technical problem solving,
 working with the PdM and TL/PM during the post-transfer operation and improvement of the service.
 
-- Built integration tests after completing service development, enabling Coding Agents
-  to verify implementations autonomously. Built a release-test lane that separates
-  verification from regular production work. Broader adoption and measured verification-time
-  savings remain future work.
-- Established access to logs and relevant data for Cursor-assisted investigation and verification.
-  Introduced a dependency-update workflow: Dependabot updates libraries, tests run,
-  and Cursor repairs failing changes.
+- Implemented integration tests so Coding Agents can verify their implementations.
+  Built a release-test lane that separates verification from regular processing,
+  and established access to logs and relevant data for Cursor-assisted investigation.
+  Broader adoption and verification-time savings remain to be validated.
+- Introduced a dependency-update workflow: Dependabot updates libraries, tests run,
+  and Cursor repairs failing changes. Expanded delegation of repetitive work while
+  retaining human responsibility for system-wide consistency and design decisions.
 - Restored a serverless DWH using DynamoDB Export, S3, EventBridge, Step Functions, and Athena.
   Requirements and design took the end-to-end effort to approximately one month;
   implementation, infrastructure, and data validation took five working days.
   Validated counts, missing records, duplicates, and processing time.
-  Infrastructure cost stayed below USD 20 per month across three environments.
-  BI adoption and the expected reduction of one to two hours of weekly CSV aggregation
-  remain unverified outcomes.
+  Construction and data validation are complete; effects on operating effort,
+  SLA reporting, and decision-making remain to be assessed in actual use.
 - Identified insufficient OpenSearch instance capacity and prepared cost, rollout,
   Terraform state reconciliation, and risk information for a remediation decision.
   Resolved recurring Terraform drift and plan differences across S3, Lambda, Cognito,
@@ -67,8 +71,9 @@ working with the PdM and TL/PM during the post-transfer operation and improvemen
   purpose, execution paths, permissions, data impact, and failure modes.
 - Piloted implementation, investigation, security, SRE, QA, and review Agents.
   For one DWH project, two to three independent generations from the same specification
-  converged on behavior verified by tests and runtime checks. Identified shared context,
-  dependencies, coordination, and human review as constraints on multi-Agent delivery.
+  converged on behavior verified by tests and runtime checks; this reproducibility result
+  is limited to that one project. Observed overengineering from local Agent optimization
+  and identified shared context, dependencies, coordination, and human review as design concerns.
 - Delivered a PoC UI change in approximately one week. Clarified underspecified AWS
   security tasks and client PoC requirements before implementation, and assessed
   routing, endpoints, DNS, IAM conditions, and service impact for AWS network changes.
@@ -77,7 +82,7 @@ working with the PdM and TL/PM during the post-transfer operation and improvemen
 
 ### YUZURIHA / Engineer, Backend and Platform
 
-January 2021–June 2026
+January 2021–May 2026
 
 Worked on a point platform serving approximately seven million members.
 Contributed technical direction and design/code reviews for a team of approximately ten
