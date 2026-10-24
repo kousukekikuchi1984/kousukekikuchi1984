@@ -34,11 +34,14 @@ improvement of an AI Property Resilience service. My work spans system discovery
 platform architecture, infrastructure-as-code, and a validated serverless DWH.
 Recent delivery includes role-based AI Agents, integration tests, an isolated release-test
 lane, and a workflow that tests dependency updates and uses Cursor to repair failures.
+I also designed and implemented approval CI based on evidence and blast radius,
+and defined security-remediation quality gates. The approval CI awaits full operation;
+the end-to-end Security Remediation Factory is at the initial design and inventory stage.
 I am building a Software Factory incrementally, with human ownership of system-wide
 consistency and design decisions. Operational benefits from the DWH and broader
 verification-time savings remain outcomes to validate.
 
-Both résumé editions and their PDFs were updated on October 13, 2026.
+Both résumé editions and their PDFs were updated on October 24, 2026.
 
 ## Document Balance
 

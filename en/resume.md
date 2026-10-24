@@ -4,7 +4,7 @@ Platform / Backend Engineer | Architecture, Data Integrity, Software Factory
 
 Nishinomiya, Hyogo, Japan · [GitHub](https://github.com/kousukekikuchi1984)
 
-Last updated: October 13, 2026
+Last updated: October 24, 2026
 
 ## Summary
 
@@ -20,6 +20,8 @@ a serverless DWH, reliable Terraform configuration management, role-based AI Age
 integration tests, an isolated release-test lane, and automated dependency updates and repairs.
 I am building a Software Factory incrementally so engineers can focus on system-wide
 consistency and design decisions.
+Recent work also includes an implemented approval CI awaiting full operation,
+security-remediation quality gates, and initial design of a continuous remediation workflow.
 
 I define specifications and acceptance criteria before delegating execution to AI Agents,
 and retain responsibility for design decisions and evaluating the results. I observed
@@ -33,7 +35,8 @@ team capacity and operational needs.
 - Backend and platform architecture: availability, cost, operability, maintainability, technical requirements.
 - Production troubleshooting: root-cause analysis across application code, databases, infrastructure, and workflows.
 - Software Factory: specification-driven development, role-based Agents, code review,
-  integration testing, isolated test lanes, dependency automation, and human design judgment.
+  integration testing, isolated test lanes, dependency automation, evidence-based approval,
+  blast-radius assessment, and human design judgment.
 - Technologies: Python; TypeScript / Vue.js; MySQL, DynamoDB, OpenSearch, DuckDB, Athena;
   AWS ECS, EKS, Lambda, S3, CloudFront, CloudWatch, EventBridge, Step Functions; Terraform;
   Digdag, Embulk, Linux, HULFT, Cursor, Dependabot.
@@ -49,6 +52,14 @@ Social Infrastructure Design Department, AI Property Resilience Business.
 Individual contributor responsible for platform engineering and technical problem solving,
 working with the PdM and TL/PM during the post-transfer operation and improvement of the service.
 
+- Designed and implemented CI that routes changes to automatic approval or human review
+  using finding severity, blast radius, and required integration-test / E2E evidence.
+  Automatic approval, merge, and production deployment remain separate decisions.
+  The CI is awaiting full operation; review lead-time savings have not been demonstrated.
+- Defined security-fix completion as a module-scoped change passing integration tests
+  with evidence attached to the PR. Began an execution-environment inventory and decision skills
+  for a Security Remediation Factory spanning impact assessment, repair, verification,
+  approval, and release. End-to-end operation and throughput gains remain unvalidated.
 - Implemented integration tests so Coding Agents can verify their implementations.
   Built a release-test lane that separates verification from regular processing,
   and established access to logs and relevant data for Cursor-assisted investigation.
