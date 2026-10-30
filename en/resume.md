@@ -4,7 +4,7 @@ Platform / Backend Engineer | Architecture, Data Integrity, Software Factory
 
 Nishinomiya, Hyogo, Japan · [GitHub](https://github.com/kousukekikuchi1984)
 
-Last updated: October 24, 2026
+Last updated: October 30, 2026
 
 ## Summary
 
@@ -14,14 +14,15 @@ or revenue records are costly to correct. My work covers idempotency, state tran
 safe retries, recovery, and auditability.
 
 At NTT-ME, I work as an individual contributor on the AI Property Resilience Business
-transferred from Tractable. I handle system discovery and platform improvement across
-requirements, architecture, data, infrastructure, security, and operations. Recent work includes
-a serverless DWH, reliable Terraform configuration management, role-based AI Agents,
-integration tests, an isolated release-test lane, and automated dependency updates and repairs.
-I am building a Software Factory incrementally so engineers can focus on system-wide
-consistency and design decisions.
-Recent work also includes an implemented approval CI awaiting full operation,
-security-remediation quality gates, and initial design of a continuous remediation workflow.
+transferred from Tractable, spanning requirements, architecture, data, infrastructure,
+security, and operations. Recent work includes a serverless DWH, Terraform reconciliation,
+integration tests, an isolated release-test lane, dependency automation, and verified
+Dependabot Reachability data retrieval.
+
+I am building a Software Factory incrementally through evidence-based approval CI and
+security-fix quality gates. Approval CI awaits full operation; the continuous remediation
+workflow and Blue/Green remain proposals. I also outlined technical-verification and
+business-acceptance boundaries. End-to-end operational benefits are unvalidated.
 
 I define specifications and acceptance criteria before delegating execution to AI Agents,
 and retain responsibility for design decisions and evaluating the results. I observed
@@ -36,7 +37,7 @@ team capacity and operational needs.
 - Production troubleshooting: root-cause analysis across application code, databases, infrastructure, and workflows.
 - Software Factory: specification-driven development, role-based Agents, code review,
   integration testing, isolated test lanes, dependency automation, evidence-based approval,
-  blast-radius assessment, and human design judgment.
+  blast-radius assessment, reachability-informed assessment, and human design judgment.
 - Technologies: Python; TypeScript / Vue.js; MySQL, DynamoDB, OpenSearch, DuckDB, Athena;
   AWS ECS, EKS, Lambda, S3, CloudFront, CloudWatch, EventBridge, Step Functions; Terraform;
   Digdag, Embulk, Linux, HULFT, Cursor, Dependabot.
@@ -60,6 +61,14 @@ working with the PdM and TL/PM during the post-transfer operation and improvemen
   with evidence attached to the PR. Began an execution-environment inventory and decision skills
   for a Security Remediation Factory spanning impact assessment, repair, verification,
   approval, and release. End-to-end operation and throughput gains remain unvalidated.
+- Enabled Dependabot Reachability and verified read-only vulnerability-data retrieval.
+  Assigned collection and assessment to a dedicated Agent, separate from repair and testing.
+  Unknown reachability requires evidence from production dependencies and execution paths;
+  sustained assessment quality and operational benefits remain unvalidated.
+- Outlined a release strategy separating technical verification from business acceptance,
+  with release paths based on impact and urgency. Blue/Green remains a proposal;
+  shared data, duplicate event processing, backward compatibility, and rollback still
+  require design and validation. No deployment or release-frequency gains are claimed.
 - Implemented integration tests so Coding Agents can verify their implementations.
   Built a release-test lane that separates verification from regular processing,
   and established access to logs and relevant data for Cursor-assisted investigation.

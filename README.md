@@ -37,11 +37,14 @@ lane, and a workflow that tests dependency updates and uses Cursor to repair fai
 I also designed and implemented approval CI based on evidence and blast radius,
 and defined security-remediation quality gates. The approval CI awaits full operation;
 the end-to-end Security Remediation Factory is at the initial design and inventory stage.
+I enabled Dependabot Reachability and verified read-only vulnerability-data retrieval,
+and outlined technical-verification / business-acceptance boundaries and impact-based
+release paths. Blue/Green remains a proposal; sustained operational benefits are unvalidated.
 I am building a Software Factory incrementally, with human ownership of system-wide
 consistency and design decisions. Operational benefits from the DWH and broader
 verification-time savings remain outcomes to validate.
 
-Both résumé editions and their PDFs were updated on October 24, 2026.
+Both résumé editions and their PDFs were updated on October 30, 2026.
 
 ## Document Balance
 
