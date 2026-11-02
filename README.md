@@ -40,11 +40,14 @@ the end-to-end Security Remediation Factory is at the initial design and invento
 I enabled Dependabot Reachability and verified read-only vulnerability-data retrieval,
 and outlined technical-verification / business-acceptance boundaries and impact-based
 release paths. Blue/Green remains a proposal; sustained operational benefits are unvalidated.
+I also defined security-requirement assessment criteria covering protection goals,
+renewal operations, automation, availability, and audit requirements; validation and ADR
+documentation remain pending.
 I am building a Software Factory incrementally, with human ownership of system-wide
 consistency and design decisions. Operational benefits from the DWH and broader
 verification-time savings remain outcomes to validate.
 
-Both résumé editions and their PDFs were updated on October 30, 2026.
+Both résumé editions and their PDFs were updated on November 2, 2026.
 
 ## Document Balance
 

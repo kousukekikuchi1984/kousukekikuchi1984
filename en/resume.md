@@ -4,7 +4,7 @@ Platform / Backend Engineer | Architecture, Data Integrity, Software Factory
 
 Nishinomiya, Hyogo, Japan · [GitHub](https://github.com/kousukekikuchi1984)
 
-Last updated: October 30, 2026
+Last updated: November 2, 2026
 
 ## Summary
 
@@ -65,6 +65,10 @@ working with the PdM and TL/PM during the post-transfer operation and improvemen
   Assigned collection and assessment to a dedicated Agent, separate from repair and testing.
   Unknown reachability requires evidence from production dependencies and execution paths;
   sustained assessment quality and operational benefits remain unvalidated.
+- Defined criteria for assessing security requirements against protection goals, threats,
+  assurance levels, certificate renewal, automation, availability, and audit requirements.
+  Requirements validation, adoption decisions, policy or exception agreement, and an ADR
+  remain pending; engineering assessment and organizational policy authority are distinct.
 - Outlined a release strategy separating technical verification from business acceptance,
   with release paths based on impact and urgency. Blue/Green remains a proposal;
   shared data, duplicate event processing, backward compatibility, and rollback still
