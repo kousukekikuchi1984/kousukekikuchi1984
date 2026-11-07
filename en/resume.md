@@ -1,34 +1,28 @@
 # Kosuke Kikuchi
 
-Platform / Backend Engineer | Architecture, Data Integrity, Software Factory
+Full-stack / Platform Engineer | Backend, Infrastructure, Data Integrity
 
 Nishinomiya, Hyogo, Japan · [GitHub](https://github.com/kousukekikuchi1984)
 
-Last updated: November 2, 2026
+Last updated: November 7, 2026
 
 ## Summary
 
-Software engineer working across backend systems, data platforms, and infrastructure since 2014.
-I specialize in data integrity for systems where incorrect accounting outputs, point balances,
-or revenue records are costly to correct. My work covers idempotency, state transitions,
-safe retries, recovery, and auditability.
+Full-stack / platform engineer focused on backend and infrastructure, working across
+applications, data platforms, and operations since 2014.
+I specialize in data integrity: idempotency, state transitions, retries, recovery, and
+auditability for accounting outputs, point balances, and revenue records.
 
-At NTT-ME, I work as an individual contributor on the AI Property Resilience Business
-transferred from Tractable, spanning requirements, architecture, data, infrastructure,
-security, and operations. Recent work includes a serverless DWH, Terraform reconciliation,
-integration tests, an isolated release-test lane, dependency automation, and verified
-Dependabot Reachability data retrieval.
+At NTT-ME, I work as an IC on the AI Property Resilience Business transferred from Tractable,
+spanning requirements, architecture, data, infrastructure, security, and operations.
+Recent work includes a serverless DWH, Terraform reconciliation, verification foundations,
+Dependabot Reachability, and team delivery of production security monitoring.
 
-I am building a Software Factory incrementally through evidence-based approval CI and
-security-fix quality gates. Approval CI awaits full operation; the continuous remediation
-workflow and Blue/Green remain proposals. I also outlined technical-verification and
-business-acceptance boundaries. End-to-end operational benefits are unvalidated.
-
-I define specifications and acceptance criteria before delegating execution to AI Agents,
-and retain responsibility for design decisions and evaluating the results. I observed
-overengineering from Agents optimizing their own tasks and identified shared context,
-dependencies, and coordination as design concerns. I pace platform changes around
-team capacity and operational needs.
+I am building an evidence-based Software Factory. Approval CI awaits full operation;
+runtime fallback is a draft with runtime validation pending; browser E2E is at design stage.
+The full remediation workflow and Blue/Green remain proposals; operational gains are unvalidated.
+I define specifications and acceptance criteria before delegating execution to Agents,
+retain design responsibility, and address shared context, dependencies, and overengineering.
 
 ## Core Skills
 
@@ -53,56 +47,50 @@ Social Infrastructure Design Department, AI Property Resilience Business.
 Individual contributor responsible for platform engineering and technical problem solving,
 working with the PdM and TL/PM during the post-transfer operation and improvement of the service.
 
-- Designed and implemented CI that routes changes to automatic approval or human review
-  using finding severity, blast radius, and required integration-test / E2E evidence.
-  Automatic approval, merge, and production deployment remain separate decisions.
-  The CI is awaiting full operation; review lead-time savings have not been demonstrated.
-- Defined security-fix completion as a module-scoped change passing integration tests
-  with evidence attached to the PR. Began an execution-environment inventory and decision skills
-  for a Security Remediation Factory spanning impact assessment, repair, verification,
-  approval, and release. End-to-end operation and throughput gains remain unvalidated.
-- Enabled Dependabot Reachability and verified read-only vulnerability-data retrieval.
-  Assigned collection and assessment to a dedicated Agent, separate from repair and testing.
-  Unknown reachability requires evidence from production dependencies and execution paths;
-  sustained assessment quality and operational benefits remain unvalidated.
-- Defined criteria for assessing security requirements against protection goals, threats,
-  assurance levels, certificate renewal, automation, availability, and audit requirements.
-  Requirements validation, adoption decisions, policy or exception agreement, and an ADR
-  remain pending; engineering assessment and organizational policy authority are distinct.
-- Outlined a release strategy separating technical verification from business acceptance,
-  with release paths based on impact and urgency. Blue/Green remains a proposal;
-  shared data, duplicate event processing, backward compatibility, and rollback still
-  require design and validation. No deployment or release-frequency gains are claimed.
-- Implemented integration tests so Coding Agents can verify their implementations.
-  Built a release-test lane that separates verification from regular processing,
-  and established access to logs and relevant data for Cursor-assisted investigation.
-  Broader adoption and verification-time savings remain to be validated.
-- Introduced a dependency-update workflow: Dependabot updates libraries, tests run,
-  and Cursor repairs failing changes. Expanded delegation of repetitive work while
-  retaining human responsibility for system-wide consistency and design decisions.
+- Contributed to team vulnerability remediation and production rollout of security monitoring
+  and posture visibility. Owned architecture, platform, security/release strategy, and technical
+  decisions while sharing code fixes with other engineers. Detection and response effectiveness
+  remain to be measured.
+- Draft-implemented an alternative runtime and CI switch for delayed managed-runtime patches,
+  retaining the managed default and limiting manual switching to dev. Limited tests were reported
+  as passing; SAM execution, dev runtime checks, and function/layer size validation remain pending.
+  Completion criteria are unmet; production migration has not been decided.
+- Designed and implemented approval CI using finding severity, blast radius, and required
+  integration/E2E evidence. Approval, merge, and production deployment are separate decisions.
+  Full operation and review lead-time savings remain unvalidated.
+- Defined security-fix completion as module-scoped changes passing integration tests with
+  PR evidence. Began an environment inventory and decision skills for continuous remediation;
+  end-to-end operation and throughput gains remain unvalidated.
+- Enabled Dependabot Reachability and verified read-only data retrieval. Separated assessment
+  from repair/testing; unknown reachability requires production dependency and path evidence.
+  Sustained assessment quality remains unvalidated.
+- Defined security-requirement criteria covering protection goals, threats, assurance,
+  certificate renewal, automation, availability, and audits. Validation, adoption/policy
+  agreement, and ADR documentation remain pending; technical and policy authority are distinct.
+- Presented a release strategy separating technical verification from business acceptance.
+  Presentation does not imply adoption approval. Blue/Green remains a proposal with shared-data,
+  duplicate-event, compatibility, and rollback questions; release-frequency gains are unproven.
+- Implemented integration tests, an isolated release-test lane, and Cursor access to logs/data.
+  Defined browser/API/persistence E2E requirements; the README awaits approval and browser
+  validation is pending. Existing unit/integration gates remain; time savings are unmeasured.
+- Introduced dependency updates followed by tests and Cursor repair of failures, retaining
+  human responsibility for system-wide consistency and design decisions.
 - Restored a serverless DWH using DynamoDB Export, S3, EventBridge, Step Functions, and Athena.
-  Requirements and design took the end-to-end effort to approximately one month;
-  implementation, infrastructure, and data validation took five working days.
-  Validated counts, missing records, duplicates, and processing time.
-  Construction and data validation are complete; effects on operating effort,
-  SLA reporting, and decision-making remain to be assessed in actual use.
-- Identified insufficient OpenSearch instance capacity and prepared cost, rollout,
-  Terraform state reconciliation, and risk information for a remediation decision.
-  Resolved recurring Terraform drift and plan differences across S3, Lambda, Cognito,
-  and EC2; verified clean plans when no change exists and successful applies.
-- Built a Cursor-based CI/CD review environment. In one measured case, PR review time
-  fell from approximately 60 minutes to five minutes while I retained verification of
-  purpose, execution paths, permissions, data impact, and failure modes.
-- Piloted implementation, investigation, security, SRE, QA, and review Agents.
-  For one DWH project, two to three independent generations from the same specification
-  converged on behavior verified by tests and runtime checks; this reproducibility result
-  is limited to that one project. Observed overengineering from local Agent optimization
-  and identified shared context, dependencies, coordination, and human review as design concerns.
-- Delivered a PoC UI change in approximately one week. Clarified underspecified AWS
-  security tasks and client PoC requirements before implementation, and assessed
-  routing, endpoints, DNS, IAM conditions, and service impact for AWS network changes.
-- Adjust platform-improvement scope and timing around colleagues' workload and project readiness.
-  Version-based conflict control for DynamoDB-to-OpenSearch DLQ replay remains a design proposal.
+  End-to-end requirements/design took about one month; implementation, infrastructure, and
+  data validation took five working days. Validated counts, missing records, duplicates,
+  and processing time; operating-effort, SLA-reporting, and decision-making effects remain open.
+- Identified insufficient OpenSearch capacity; prepared cost, rollout, Terraform reconciliation,
+  and risk information. Resolved recurring drift across S3, Lambda, Cognito, and EC2;
+  verified clean plans without changes and successful applies.
+- Built Cursor-assisted CI/CD review. One measured PR review fell from about 60 to five minutes;
+  I retained checks of purpose, execution paths, permissions, data impact, and failure modes.
+- Piloted implementation, investigation, security, SRE, QA, and review Agents. For one DWH,
+  two to three independent generations converged on behavior verified by tests and runtime
+  checks. Observed local overengineering and identified shared context and coordination needs.
+- Delivered a PoC UI change in about one week; clarified underspecified AWS security and client
+  PoC tasks; assessed routing, endpoints, DNS, IAM, and service impact for network changes.
+  Pace changes around colleagues' capacity/readiness; version-based DynamoDB-to-OpenSearch
+  DLQ conflict control remains a design proposal.
 
 ### YUZURIHA / Engineer, Backend and Platform
 

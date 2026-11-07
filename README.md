@@ -1,7 +1,8 @@
 <h1 align="center">Kosuke Kikuchi (菊地 弘祐)</h1>
 
 <p align="center">
-Software Engineer specializing in <b>mission-critical data integrity</b>,
+Full-stack / Platform Engineer focused on <b>backend and infrastructure</b>,
+specializing in <b>mission-critical data integrity</b>,
 <b>architecture</b>, and <b>Software Factory development</b>.
 </p>
 
@@ -43,11 +44,14 @@ release paths. Blue/Green remains a proposal; sustained operational benefits are
 I also defined security-requirement assessment criteria covering protection goals,
 renewal operations, automation, availability, and audit requirements; validation and ADR
 documentation remain pending.
+Recent team delivery includes production security monitoring and risk-based remediation.
+Runtime fallback is a draft pending runtime validation; browser/API/persistence E2E is
+at design stage. I presented the delivery strategy internally; adoption approval is separate.
 I am building a Software Factory incrementally, with human ownership of system-wide
 consistency and design decisions. Operational benefits from the DWH and broader
 verification-time savings remain outcomes to validate.
 
-Both résumé editions and their PDFs were updated on November 2, 2026.
+Both résumé editions and their PDFs were updated on November 7, 2026.
 
 ## Document Balance
 
