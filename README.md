@@ -1,8 +1,8 @@
 <h1 align="center">Kosuke Kikuchi (菊地 弘祐)</h1>
 
 <p align="center">
-Full-stack / Platform Engineer focused on <b>backend and infrastructure</b>,
-specializing in <b>mission-critical data integrity</b>,
+Backend / Full-stack Engineer specializing in <b>software design</b>,
+<b>mission-critical data integrity</b>,
 <b>architecture</b>, and <b>Software Factory development</b>.
 </p>
 
@@ -31,8 +31,10 @@ Currently: NTT-ME Corporation / AI Property Resilience Business
 ## Current Work
 
 At NTT-ME, I work as an individual contributor on the post-transfer operation and
-improvement of an AI Property Resilience service. My work spans system discovery,
-platform architecture, infrastructure-as-code, and a validated serverless DWH.
+improvement of an AI Property Resilience service. My specialization is backend development
+and software design; I work across frontend, data, infrastructure, and operations as needed.
+Delivery includes system discovery,
+architecture, infrastructure-as-code, and a validated serverless DWH.
 Recent delivery includes role-based AI Agents, integration tests, an isolated release-test
 lane, and a workflow that tests dependency updates and uses Cursor to repair failures.
 I also designed and implemented approval CI based on evidence and blast radius,
@@ -44,14 +46,17 @@ release paths. Blue/Green remains a proposal; sustained operational benefits are
 I also defined security-requirement assessment criteria covering protection goals,
 renewal operations, automation, availability, and audit requirements; validation and ADR
 documentation remain pending.
-Recent team delivery includes production security monitoring and risk-based remediation.
-Runtime fallback is a draft pending runtime validation; browser/API/persistence E2E is
-at design stage. I presented the delivery strategy internally; adoption approval is separate.
+Recent team delivery includes a production security release and partial verification of
+automated containment paths. Full real-event E2E and operating-effectiveness measurement remain open.
+After assessing vulnerability reachability and operating costs, I closed the alternative-runtime
+draft and retained the managed runtime for the assessed path. Other CVEs and routine patching
+remain subject to review. Local E2E with AWS Emulator and resource-protection guardrails are
+proposals. I presented the delivery strategy internally; adoption approval is separate.
 I am building a Software Factory incrementally, with human ownership of system-wide
 consistency and design decisions. Operational benefits from the DWH and broader
 verification-time savings remain outcomes to validate.
 
-Both résumé editions and their PDFs were updated on November 7, 2026.
+Both résumé editions and their PDFs were updated on November 14, 2026.
 
 ## Document Balance
 

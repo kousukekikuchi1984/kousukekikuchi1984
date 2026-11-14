@@ -1,25 +1,28 @@
 # Kosuke Kikuchi
 
-Full-stack / Platform Engineer | Backend, Infrastructure, Data Integrity
+Backend / Full-stack Engineer | Software Design, Data Integrity, Architecture
 
 Nishinomiya, Hyogo, Japan · [GitHub](https://github.com/kousukekikuchi1984)
 
-Last updated: November 7, 2026
+Last updated: November 14, 2026
 
 ## Summary
 
-Full-stack / platform engineer focused on backend and infrastructure, working across
-applications, data platforms, and operations since 2014.
+Full-stack engineer specializing in backend development and software design since 2014,
+working across frontend, data platforms, infrastructure, and operations as needed.
 I specialize in data integrity: idempotency, state transitions, retries, recovery, and
 auditability for accounting outputs, point balances, and revenue records.
 
-At NTT-ME, I work as an IC on the AI Property Resilience Business transferred from Tractable,
-spanning requirements, architecture, data, infrastructure, security, and operations.
+At NTT-ME, I am an IC on the AI Property Resilience Business transferred from Tractable.
+The system uses microservices; my work spans requirements, architecture, data, infrastructure,
+security, and operations.
 Recent work includes a serverless DWH, Terraform reconciliation, verification foundations,
 Dependabot Reachability, and team delivery of production security monitoring.
 
-I am building an evidence-based Software Factory. Approval CI awaits full operation;
-runtime fallback is a draft with runtime validation pending; browser E2E is at design stage.
+I am building an evidence-based Software Factory. Approval CI awaits full operation.
+Recent work includes a production security release and partial containment-path verification.
+After assessing vulnerability reachability and operating costs, I chose to retain the managed
+runtime and closed the alternative-runtime draft. Local E2E and AWS Emulator remain proposals.
 The full remediation workflow and Blue/Green remain proposals; operational gains are unvalidated.
 I define specifications and acceptance criteria before delegating execution to Agents,
 retain design responsibility, and address shared context, dependencies, and overengineering.
@@ -47,14 +50,16 @@ Social Infrastructure Design Department, AI Property Resilience Business.
 Individual contributor responsible for platform engineering and technical problem solving,
 working with the PdM and TL/PM during the post-transfer operation and improvement of the service.
 
-- Contributed to team vulnerability remediation and production rollout of security monitoring
-  and posture visibility. Owned architecture, platform, security/release strategy, and technical
-  decisions while sharing code fixes with other engineers. Detection and response effectiveness
-  remain to be measured.
-- Draft-implemented an alternative runtime and CI switch for delayed managed-runtime patches,
-  retaining the managed default and limiting manual switching to dev. Limited tests were reported
-  as passing; SAM execution, dev runtime checks, and function/layer size validation remain pending.
-  Completion criteria are unmet; production migration has not been decided.
+- Contributed to team remediation and production delivery of security monitoring and defensive
+  controls. Owned architecture, platform, security/release strategy, and technical decisions,
+  sharing code fixes with other engineers. Implemented image-input restrictions and minimal
+  audit logging. Confirmed the production release and separately tested sample-event-to-handler
+  and handler-to-blocking paths; full real-event E2E, notification/unblocking checks,
+  and quantitative operating effectiveness remain incomplete.
+- Evaluated an alternative runtime and CI-switch draft against vulnerability prerequisites,
+  execution-path exposure, and deployment/maintenance costs. Found no need for the additional
+  switch on the assessed path; closed the unmerged draft and retained the managed runtime.
+  This assessment is scoped; other CVEs and routine patching remain subject to review.
 - Designed and implemented approval CI using finding severity, blast radius, and required
   integration/E2E evidence. Approval, merge, and production deployment are separate decisions.
   Full operation and review lead-time savings remain unvalidated.
@@ -71,8 +76,11 @@ working with the PdM and TL/PM during the post-transfer operation and improvemen
   Presentation does not imply adoption approval. Blue/Green remains a proposal with shared-data,
   duplicate-event, compatibility, and rollback questions; release-frequency gains are unproven.
 - Implemented integration tests, an isolated release-test lane, and Cursor access to logs/data.
-  Defined browser/API/persistence E2E requirements; the README awaits approval and browser
-  validation is pending. Existing unit/integration gates remain; time savings are unmeasured.
+  Designed browser/API/persistence E2E; completion of browser validation remains unconfirmed.
+  Proposed Local E2E with AWS Emulator to reduce shared-environment dependency, retaining
+  real-cloud checks for permissions, integration, and performance. Resource-protection guards
+  and environment/state separation remain under consideration. Existing unit/integration gates
+  remain; verification-time savings and parallelism gains are unmeasured.
 - Introduced dependency updates followed by tests and Cursor repair of failures, retaining
   human responsibility for system-wide consistency and design decisions.
 - Restored a serverless DWH using DynamoDB Export, S3, EventBridge, Step Functions, and Athena.
