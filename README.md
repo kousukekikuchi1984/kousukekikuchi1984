@@ -33,30 +33,22 @@ Currently: NTT-ME Corporation / AI Property Resilience Business
 At NTT-ME, I work as an individual contributor on the post-transfer operation and
 improvement of an AI Property Resilience service. My specialization is backend development
 and software design; I work across frontend, data, infrastructure, and operations as needed.
-Delivery includes system discovery,
-architecture, infrastructure-as-code, and a validated serverless DWH.
-Recent delivery includes role-based AI Agents, integration tests, an isolated release-test
-lane, and a workflow that tests dependency updates and uses Cursor to repair failures.
-I also designed and implemented approval CI based on evidence and blast radius,
-and defined security-remediation quality gates. The approval CI awaits full operation;
-the end-to-end Security Remediation Factory is at the initial design and inventory stage.
-I enabled Dependabot Reachability and verified read-only vulnerability-data retrieval,
-and outlined technical-verification / business-acceptance boundaries and impact-based
-release paths. Blue/Green remains a proposal; sustained operational benefits are unvalidated.
-I also defined security-requirement assessment criteria covering protection goals,
-renewal operations, automation, availability, and audit requirements; validation and ADR
-documentation remain pending.
-Recent team delivery includes a production security release and partial verification of
-automated containment paths. Full real-event E2E and operating-effectiveness measurement remain open.
-After assessing vulnerability reachability and operating costs, I closed the alternative-runtime
-draft and retained the managed runtime for the assessed path. Other CVEs and routine patching
-remain subject to review. Local E2E with AWS Emulator and resource-protection guardrails are
-proposals. I presented the delivery strategy internally; adoption approval is separate.
-I am building a Software Factory incrementally, with human ownership of system-wide
-consistency and design decisions. Operational benefits from the DWH and broader
-verification-time savings remain outcomes to validate.
+Delivery includes a validated serverless DWH, Terraform reconciliation, integration tests,
+an isolated release-test lane, and dependency-update testing with Agent-assisted repair.
 
-Both résumé editions and their PDFs were updated on November 14, 2026.
+I delegated remediation verification to AI Agents and defined criteria covering review-comment
+validity, pre-fix reproduction, post-fix and regression tests, evidence, and residual risk.
+I designed approval CI and revised conditions combining severity, blast radius, and verification
+results. Code integration, GitHub merge status, and production release are separate completion
+checks. Evidence coverage and rollout are checked per change; sustained operating gains
+remain unconfirmed.
+
+I also contributed to team production security delivery and partial containment-path verification,
+and retained the managed runtime after evaluating an alternative against reachability and
+operating costs. Full real-event E2E remains incomplete. Broader browser/local verification
+and release-strategy changes remain proposals, with human ownership of design decisions.
+
+Both résumé editions and their PDFs were updated on November 20, 2026.
 
 ## Document Balance
 
